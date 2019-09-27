@@ -1,0 +1,47 @@
+//MEDIA QUERY MANAGER
+// phone -  max-width 600px
+// tab-phone - max-width  900px
+// tab-landscape - max-width 1200px
+// big-desktop -  min-width 1800px
+
+//notes --> the comparative advantage of utilizing this method is because it can be changed easily from this file
+// i.e the breakpoints, in comparison to having them in separate files.
+//
+
+@mixin respond($breakpoint) {
+	@if ($breakpoint == small-android) {
+		@media only screen and (max-width: 20em) {
+			// less or equal to 320px;
+			@content;
+		}
+	}
+	@if ($breakpoint == phone) {
+		@media only screen and (max-width: 37.5em) {
+			// less or equql to 600px
+			@content;
+		}
+	}
+	@if ($breakpoint == android-phone) {
+		@media only screen and (max-width: 50em) {
+			//less or equal to 500px
+			@content;
+		}
+	}
+	@if ($breakpoint == tab-port) {
+		@media only screen and (max-width: 56.25em) {
+			// less or equal to 900px
+			@content;
+		}
+	}
+	@if ($breakpoint == tab-land) {
+		@media only screen and (max-width: 75em) {
+			//less or equal to 1200px
+			@content;
+		}
+	}
+	@if ($breakpoint == big-desktop) {
+		//greater or equal to 1800px
+		@media only screen and (min-width: 112.5em) {
+			@content;
+		}
+	} }

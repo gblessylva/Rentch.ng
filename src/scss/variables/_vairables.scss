@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+	/*COLORS*/
+--color-white	: #fff;
+	--color-white-1: #f2f5f6;
+	--primary-color: #e5396b;
+	--primary-color-light: #c85b80;
+	--primary-color-light-1: #c598a7;
+	--primary-color-light-2: #ffedf3;
+	--color-light-blue: #d4dee2;
+	--color-green: #50e3c2;
+	--color-yellow: #fbc05a;
+	--grey-color-1: #999;
+	--grey-color-2: #eee;
+	--grey-color-3: #d4dee2;
+	--grey-color-4: #d8d8d8;
+	--grey-color-5: #f2f5f6;
+	--grey-color-6: #808fa3;
+	--grey-color-7: #dfe7ea;
+	--grey-color-8: rgba(212, 222, 226, 0.31);
+	--grey-color-9: #dde5e8;
+	--grey-color-10: #ffefd4;
+	--grey-color-11: #979d9f;
+	--grey-color-12: #4a4a4a;
+
+	/*GRADIENTS*/
+	--default-background-gradient: linear-gradient(270deg, #e5396b, #c85b80);
+	--landing-header-gradient: linear-gradient(135deg, #1e1e1e, #030303f5, #000000, #000000, #000000, #000000);
+	--btn-transparent-gradient: linear-gradient(to bottom, transparent 50%, rgba(255, 255, 255, 0.12) 50%);
+	--landing-btn-gradient: linear-gradient(to right top, #69d9d1, #f12960, #f8d96c);
+	--upload-section-gradient: linear-gradient(to right top, #f4285f, #f9ac67);
+	--socials-section-gradient: linear-gradient(to right bottom, #f4285f, #4cefdf);
+	--payment-section-gradient: linear-gradient(to right top, #fbc05a, #4cefdf);
+	--footer-gradient: linear-gradient(to right top, #000000, #000000, #000000, #030303f5, #030303f5, #1e1e1e);
+	--button-gradient: linear-gradient(270deg, #e5396b 0%, #c85b80 100%);
+	--dashboard-home-artist-gradient: linear-gradient(270deg, #e5396b 0%, #c85b80 100%);
+	--fading-box-gradient: linear-gradient(
+		to right,
+		transparent 35%,
+		rgba(255, 255, 255, 0.5),
+		rgba(255, 255, 255, 0.5)
+	);
+
+	/*FONTS*/
+	--default-font: 'Roboto', sans-serif;
+	--font-display-2: 'Octarine Light', sans-serif;
+	--font-display-3: 'Octarine Bold', sans-serif;
+	--font-display-4: 'Gill Sans Pro Medium', sans-serif;
+	--font-display-5: 'Gill Sans Pro Medium italic', sans-serif;
+	--font-display-6: 'Gill Sans Pro Light', sans-serif;
+
+	/* BOX SHADOW */
+	    --shadow-transition_-_transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-none_-_box-shadow: none;
+    --elevation-2dp_-_box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    --elevation-3dp_-_box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12), 0 3px 3px -2px rgba(0, 0, 0, 0.4);
+    --elevation-4dp_-_box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+    --elevation-6dp_-_box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.4);
+    --elevation-8dp_-_box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
+    --elevation-12dp_-_box-shadow: 0 12px 16px 1px rgba(0, 0, 0, 0.14), 0 4px 22px 3px rgba(0, 0, 0, 0.12), 0 6px 7px -4px rgba(0, 0, 0, 0.4);
+    --elevation-16dp_-_box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
+    --elevation-24dp_-_box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.4);
+}
+

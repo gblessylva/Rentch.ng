@@ -1,0 +1,15 @@
+@import "./variables/base";
+@import "./variables/vairables";
+ .html{
+  font-size:62.5%;
+  body{
+    padding:0;
+    margin:0;
+    font-family: var(--default-font);
+
+    .App{
+      background:var(--color-white-1);
+    }
+  }
+  
+}
