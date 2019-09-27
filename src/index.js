@@ -7,8 +7,9 @@ import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 function App() {
   return (
     <Router>
-    <main className="App">
+    <main>
     <header >
+      <div className="header-overlay">
       <nav>
         <div className="logo">
            <h1>Rentch</h1>
@@ -18,26 +19,34 @@ function App() {
           <li><Link> Properties</Link></li>
           <li><Link> Blog</Link></li>
           <li><Link> Login</Link></li>
-          <li><Link> Sign up</Link></li>
+          <li className="login-btn"><Link> Sign up</Link></li>
       </ul>
       </nav>
         <section className="hero-section">
-          <h2>Search and Find Living Apartments</h2>
+          <h2>Search and Find <span>Living Apartments</span></h2>
             <div className="filter-wrapper">
-              <select >
-                <option>Space Type</option>
-              </select>
-              <select >
-                <option>Location</option>
-              </select>
+              <div className="select">
+                <select >
+                  <option>Space Type</option>
+                </select>
+              </div>
+               <div className="select">
+                <select >
+                  <option>Location</option>
+                </select>
+              </div>
+             <div className="select">
               <select >
                 <option>Category</option>
               </select>
-              <button >
+              </div>
+              <button className="filter-search">
                 Search
               </button>
+              
             </div>
         </section>
+        </div>
       </header>
         <section className="popular-locations">
           <h3> Popular Locations</h3>
