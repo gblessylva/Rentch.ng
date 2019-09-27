@@ -11,6 +11,8 @@ html{
     font-family: var(--default-font);
     main{
       background:var(--color-white-1);
+      padding:0;
+      margin:0;
       .header-overlay{
         width:100%;
         height:100%;
@@ -309,5 +311,46 @@ html{
 
     }
     
+    }
+    footer{
+      background:#3C1A49;
+      color:white;
+      .footer-contents{
+        width:90%;
+        margin:2rem auto;
+        display:flex;
+        justify-content:space-between;
+        .footer-items{
+          display:flex;
+          flex-direction: column;
+          padding-bottom:4rem;
+          h2{
+            padding-top:5rem;
+            padding-bottom:1rem;
+            font-size:1.8rem;
+          }
+          a{
+            color:white;
+            text-decoration:none;
+            padding:0.5rem 0;
+            font-size:1.4rem;
+
+          }
+        }
+      }
+    }
+    .footer-copyright{
+      width:90%;
+      margin:1rem auto 0 auto;
+      border-top:1px solid #d8d8d8;
+      padding-top:2rem;
+      padding-bottom:2rem;
+      font-size:1.4rem;
+      span{
+        
+        border-left:1px solid #d2d2d2;
+        padding-left:1rem;
+        margin-left:1rem;
+      }
     }
 }

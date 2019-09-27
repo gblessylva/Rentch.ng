@@ -153,6 +153,42 @@ function App() {
         <section className="earn">
         </section>
         <footer >
+          <div className="footer-contents">
+            <div className="footer-items">
+              <h2 className="logo">Rentch</h2> 
+            </div>
+            <div className="footer-items">
+                <h2 >Company</h2> 
+                <Link>About</Link>
+                <Link>Blog</Link>
+                <Link>Privacy Policy</Link>
+                <Link>Terms of Service</Link>
+            </div>
+          
+            <div className="footer-items">
+              <h2 >Discover</h2> 
+                <Link>List a Space</Link>
+                <Link>Properties</Link>
+                <Link>FAQ</Link>
+            </div>
+            <div className="footer-items">
+             <h2 >Contact</h2> 
+                <Link>Call 090090000</Link>
+                <Link>Email info@rentch.com</Link>
+                
+            </div>
+            <div className="footer-items">
+                <h2 >Email Newsletter</h2> 
+                <p>Dont miss out on the latest deals</p>
+                <div className="newletter-form">
+                  <input type="text" placeholder="email address" />
+                  <button>Sub</button>
+                </div>
+                </div>
+          </div>
+          <div className="footer-copyright">
+          <p>Copyright &copy 2019 <span>Rentch</span></p>
+          </div>
         </footer>
     </main>
     </Router>
