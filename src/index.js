@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./scss/index.scss"
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
-
+import {FaHome, FaChevronRight, FaBookOpen, FaStar, FaSearchLocation, FaUserFriends, FaLuggageCart} from "react-icons/fa"
 
 function App() {
   return (
@@ -54,13 +54,46 @@ function App() {
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
           <div className="four-row">
             <div className="row-card">
+            <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" alt="testimonial" />
+             <div className="row-footer">
+              <h4>Abuja</h4>
+              <div class="stars">
+              <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+              </div> 
+              <p> <FaBookOpen />15 listings</p>
+             </div>
             </div>
             <div className="row-card">
+            <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" alt="testimonial" />
+            <div className="row-footer">
+              <h4>Lagos</h4>
+              <div class="stars">
+              <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+              </div> 
+              <p> <FaBookOpen />15 listings</p>
+             </div>
             </div>
             <div className="row-card">
+            <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" alt="testimonial" />
+            <div className="row-footer">
+              <h4>Abuja</h4>
+              <div class="stars">
+              <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+              </div> 
+              <p> <FaBookOpen />15 listings</p>
+             </div>
             </div>
             <div className="row-card">
-            </div>
+            <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" alt="testimonial" />
+            <div className="row-footer">
+              <h4>Port Harcourt</h4>
+              <div class="stars">
+              <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+              </div> 
+              <p> <FaBookOpen />15 listings</p>
+             </div>
+            </div> 
+            <FaChevronRight className="next-btn" />
           </div>
         </section>
         <section className="featured-listing">
@@ -69,6 +102,7 @@ function App() {
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
           <div className="three-row">
             <div className="row-card">
+              <img src="/images/stark1.jpg" alt="testimonial" />
             </div>
             <div className="row-card">
             </div>
@@ -97,18 +131,21 @@ function App() {
           <div className="works-row">
             <div className="work-card">
               <div className="work-icon">
+                <FaSearchLocation />
               </div>
               <h4> Search for a Space</h4>
              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
             </div>
             <div className="work-card">
                 <div className="work-icon">
+                < FaUserFriends />
                 </div>
                 <h4> Book a Tour</h4>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
             </div>
             <div className="work-card"> 
               <div className="work-icon">
+               <FaLuggageCart />
               </div>
               <h4> Move in</h4>
               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
@@ -126,6 +163,7 @@ function App() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni</p>
                 <hr />
                 <div className="testi-image">
+                  <img src="/images/stark1.jpg" alt="testimonial" />
                 </div>
                 <h4> Tony Stark</h4>
               </div>
@@ -134,6 +172,7 @@ function App() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni</p>
                 <hr />
                 <div className="testi-image">
+                <img src="/images/starsk1.jpg" alt="testimonial" />
                 </div>
                 <h4> Tony Stark</h4>
               </div>
@@ -142,6 +181,8 @@ function App() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni</p>
                 <hr />
                 <div className="testi-image">
+                <img src="/images/stark1.jpg" alt="testimonial" />
+
                 </div>
                 <h4> Tony Stark</h4>
               </div>
