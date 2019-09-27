@@ -90,6 +90,7 @@ function App() {
             </div>
         </section>
         <section className="how-it--works">
+        <div className="work-overlay">
           <h3> How it Works</h3>
           <hr />
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
@@ -113,6 +114,7 @@ function App() {
               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
             </div>
           </div>
+          </div>
         </section>
         <section className="testimonials">
             <h3> Testimonial</h3>
@@ -120,7 +122,7 @@ function App() {
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
             <div className="testimonial-row">
               <div className="testimonial-card">
-                <p>"</p>
+                <h5>"</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni</p>
                 <hr />
                 <div className="testi-image">
@@ -128,7 +130,7 @@ function App() {
                 <h4> Tony Stark</h4>
               </div>
               <div className="testimonial-card">
-                <p>"</p>
+                <h5>"</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni</p>
                 <hr />
                 <div className="testi-image">
@@ -136,13 +138,14 @@ function App() {
                 <h4> Tony Stark</h4>
               </div>
               <div className="testimonial-card">
-                <p>"</p>
+                <h5>"</h5> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni</p>
                 <hr />
                 <div className="testi-image">
                 </div>
                 <h4> Tony Stark</h4>
               </div>
+              <button> &#x203a;</button>
           </div>
         </section>
         <section className="blog">
